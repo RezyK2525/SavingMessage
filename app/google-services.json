@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "161671038545",
+    "project_id": "blumapp-3495c",
+    "storage_bucket": "blumapp-3495c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161671038545:android:7e61ff0f67e6948fed9a70",
+        "android_client_info": {
+          "package_name": "com.example.blumapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161671038545-q2r5toketbmtq02c4jonu2fiukmhojjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYqcj9xsQ2YsYQRYO3WVinfeDKyKoeabU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161671038545-q2r5toketbmtq02c4jonu2fiukmhojjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/textViewBackColor"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textViewTextSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/editButton"
+        android:textSize="@dimen/buttonFontSize"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/useButton"
+        android:textSize="@dimen/buttonFontSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
